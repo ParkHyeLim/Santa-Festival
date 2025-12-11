@@ -45,6 +45,13 @@
   flex-direction: column;
   justify-content: start;
   align-items: center;
+
+  background-color: #153684; 
+}
+
+.imageStyle {
+  width: 60%;
+  height: auto;
 }
 
 @media (max-width: 768px) {
@@ -52,7 +59,7 @@
     align-items: flex-start;
   }
 
-  img {
+  .imageStyle {
     width: 100%;
     height: auto;
   }

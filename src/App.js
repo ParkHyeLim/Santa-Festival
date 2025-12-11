@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import page1 from "./images/TEST1.JPG";
-import page2 from "./images/TEST2.JPG";
+import page1 from "./images/TEST1.jpg";
+import page2 from "./images/TEST2.jpg";
 
 function App() {
   return (

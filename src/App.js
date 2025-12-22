@@ -3,6 +3,7 @@ import "./App.css"
 import Main from './pages/Main/Main.js';
 import Santaboard from './pages/Santaboard/Santaboard.js';
 import Coinsinger from './pages/Coinsinger/Coinsinger.js';
+
 function App() {
   return (
     <Routes>

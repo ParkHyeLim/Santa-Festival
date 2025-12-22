@@ -1,16 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import page1 from "./images/page1.jpg";
-import page2 from "./images/page2.jpg";
-
+import { Routes, Route } from 'react-router-dom';
+import "./App.css"
+import Main from './pages/Main/Main.js';
+import Santaboard from './pages/Santaboard/Santaboard.js';
+import Coinsinger from './pages/Coinsinger/Coinsinger.js';
 function App() {
   return (
-    <div className="App">
-      <div className="mainContainer">
-        <img className="imageStyle" src={page1} alt="test1" />
-        <img className="imageStyle" src={page2} alt="test2" />
-      </div>
-    </div>
+    <Routes>
+      <Route path="/" element={<Main />} />
+      <Route path="/santaboard" element={<Santaboard />} />
+      <Route path="/coinsinger" element={<Coinsinger />} />
+    </Routes>
   );
 }
 
